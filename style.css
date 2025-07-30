@@ -1,13 +1,25 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 section {
   background-color: yellowgreen;
   padding: 40px;
 }
+
+h2 {
+  color: #5f2b5d;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.puntuacion-titulares p {
+  color: #928a91;
+  width: 75%
+}
+
 
 section .puntuacion,
 section .comentarios {
@@ -24,7 +36,6 @@ section .puntuacion {
 
 .puntuacion div {
   background-color: beige;
-  width: 50%;
 
 }
 
@@ -41,16 +52,52 @@ section .puntuacion {
   justify-content: center;
   gap: 30px;
 
+
 }
 
-.contenedor-valoraciones {
+.contenedor-valoraciones1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  border: 2px solid red;
+  min-height: 50px;
+}
+
+
+.contenedor-valoraciones2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.contenedor-valoraciones3 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+  padding: 20px;
+}
+
+.contenedor-valoraciones1 p,
+.contenedor-valoraciones2 p,
+.contenedor-valoraciones3 p {
+  color: #5f2b5d;
+  font-weight: bold;
 }
 
 .puntuacion-titulares h2 {
   font-size: 40px;
   width: 50%;
   margin-bottom: 20px;
+}
+
+.puntuacion-valoraciones:nth-child(1) {
+  display: flex;
+  align-items: start;
+
 }
