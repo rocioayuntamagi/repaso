@@ -1,69 +1,91 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "League Spartan", sans-serif;
 }
 
 section {
-  background-color: yellowgreen;
-  padding: 40px;
+  padding: 20px;
 }
 
-h2 {
-  color: #5f2b5d;
+.titulo-page {
   font-weight: bold;
-  letter-spacing: -2px;
+  color: #511f50;
+  width: 50%;
+  margin-left: 180px;
+  font-size: 70px;
 }
 
-.puntuacion-titulares p {
-  color: #928a91;
-  width: 75%
+.description {
+  margin-left: 60px;
+  font-size: 20px;
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  gap: 24px;
+  align-items: center
 }
-
 
 section .puntuacion,
 section .comentarios {
-  background-color: blueviolet;
   padding: 20px;
   display: flex;
   gap: 20px;
 }
 
 section .puntuacion {
-  background-color: aqua;
+  background-color: white;
   gap: 80px;
 }
 
-.puntuacion div {
+.puntuacion {
   background-color: beige;
-
+  display: flex;
+  gap: 100px;
+  margin-top: 40px
 }
 
 .puntuacion-titulares {
-  padding: 20px;
+  padding: 0;
+  text-align: left;
   width: 50%;
+  font-size: 20px;
 }
 
+.titulo-page {
+  display: flex;
+  margin-left: 10%;
+  width: 100%;
+}
+
+p {
+  color: #918791;
+}
+
+
 .puntuacion-valoraciones {
-  padding: 20px;
+  padding: 30px;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-
-
+  margin: auto
 }
 
 .contenedor-valoraciones1 {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 15px;
-  padding: 20px;
-  background-color: blue;
+  padding: 2px;
+  background-color: #f7f2f8;
   color: white;
-  border: 2px solid red;
-  min-height: 50px;
+  border: 2px solid #f7f2f8;
+  min-height: 40px;
+  border-radius: 20px;
+  margin-right: 30%;
+  height: auto;
 }
 
 
@@ -72,15 +94,30 @@ section .puntuacion {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding: 20px;
+  padding: 2px;
+  background-color: #f7f2f8;
+  color: white;
+  border: 2px solid #f7f2f8;
+  min-height: 40px;
+  border-radius: 20px;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .contenedor-valoraciones3 {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   gap: 15px;
-  padding: 20px;
+  padding: 2px;
+  background-color: #f7f2f8;
+  color: white;
+  border: 2px solid #f7f2f8;
+  min-height: 40px;
+  border-radius: 20px;
+  margin-left: 30%;
+
 }
 
 .contenedor-valoraciones1 p,
@@ -90,14 +127,60 @@ section .puntuacion {
   font-weight: bold;
 }
 
-.puntuacion-titulares h2 {
-  font-size: 40px;
-  width: 50%;
-  margin-bottom: 20px;
+.comentarios {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.puntuacion-valoraciones:nth-child(1) {
+.foto-perfil {
+  border-radius: 50%;
+  max-width: 40px;
+}
+
+.comentarios {
+  color: white;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.flex-img {
   display: flex;
-  align-items: start;
+  gap: 24px;
+  align-items: center;
+}
+
+.profile1 {
+  align-self: flex-start;
+  background-color: #511f50;
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.profile2 {
+  align-self: center;
+  background-color: #511f50;
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.profile3 {
+  align-self: flex-end;
+  background-color: #511f50;
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-card {
+  width: 75%;
+  background-color: black;
+  display: flex;
+  justify-self: center;
 
 }
