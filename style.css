@@ -140,7 +140,7 @@ p {
 
 .comentarios {
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5rem;
   font-size: 15px;
 }
@@ -149,6 +149,7 @@ p {
   display: flex;
   gap: 24px;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .profile1 {
@@ -156,6 +157,8 @@ p {
   background-color: #511f50;
   width: 30%;
   padding-bottom: 3%;
+  border-radius: 5%;
+
 }
 
 .profile2 {
@@ -163,6 +166,8 @@ p {
   background-color: #511f50;
   width: 30%;
   padding-bottom: 3%;
+  border-radius: 5%;
+
 }
 
 .profile3 {
@@ -170,17 +175,28 @@ p {
   background-color: #511f50;
   width: 30%;
   padding-bottom: 3%;
+  border-radius: 5%;
+
+
 }
 
 .name {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+
 }
 
 .text-card {
   width: 75%;
-  background-color: black;
   display: flex;
   justify-self: center;
+  padding-top: 5%;
+  color: white;
+}
 
+.person {
+  color: #ad538c;
+  justify-self: center;
 }
